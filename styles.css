@@ -49,6 +49,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 header {
@@ -57,5 +58,20 @@ header {
     flex-direction: column;
     width: 20%;
     height: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
 }
+
+.headshot {
+    border-radius: 50%;
+    width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
