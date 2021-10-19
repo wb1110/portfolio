@@ -42,12 +42,20 @@ table {
 	border-spacing: 0;
 }
 /* Navigation Section */
+
+
 body {
-    background-color: black;
+    background: url("images/anders-jilden-AkUR27wtaxs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.headshot {
+header {
+    background-color: rgba(0, 0, 0, .5);
     display: flex;
-    border-radius: 2%;
-    size: 20vh;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
 }
+
