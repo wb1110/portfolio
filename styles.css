@@ -42,3 +42,12 @@ table {
 	border-spacing: 0;
 }
 /* Navigation Section */
+body {
+    background-color: black;
+}
+
+.headshot {
+    display: flex;
+    border-radius: 2%;
+    size: 20vh;
+}
