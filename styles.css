@@ -52,12 +52,14 @@ body {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    display: flex;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 3rem;
+    padding: 0 2%;
 }
 
 h2 {
@@ -112,6 +114,17 @@ a {
 i {
     font-size: 1.5rem;
     margin-right: 2%;
+}
+/* Main Text */
+.mainText {
+    margin: 10% 0 0 5%;
+    line-height: 4rem;
+    width: 80%;
+    text-shadow: 2px 2px 5px black;
+}
+
+span {
+    font-weight: bold;
 }
 
 
