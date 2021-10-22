@@ -80,7 +80,7 @@ header {
     background-color: rgba(0, 0, 0, .5);
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     height: 100%;
     padding-top: 3%;
 }
@@ -92,7 +92,8 @@ header {
 
 .headshot {
     border-radius: 50%;
-    width: 50%;
+    width: 30%;
+    margin-bottom: 5%;
 }
 
 a {
