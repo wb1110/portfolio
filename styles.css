@@ -97,9 +97,13 @@ header {
 }
 
 a {
-    color: white;
+    color: rgba(255, 255, 255, .5);
     text-decoration: none;
     line-height: 2rem;
+}
+
+a:hover {
+    color: white;
 }
 
 .primaryLinks {
@@ -110,6 +114,10 @@ a {
     margin: 0 10%;
     line-height: 2rem;
     font-size: .75rem;
+}
+
+p {
+    color: rgba(255, 255, 255, .5);
 }
 
 i {
