@@ -93,13 +93,13 @@ header {
     background-color: rgba(0, 0, 0, .5);
     display: flex;
     flex-direction: column;
-    width: 50vh;
-    padding-top: 3%;
+    width: 25%;
 }
 
 .nav {
     align-items: center;
     text-align: center;
+    margin-top: 10%;
 }
 
 .headshot {
@@ -137,21 +137,11 @@ i {
     margin-right: 2%;
 }
 
-.nonHome {
-    background: url("images/anders-jilden-AkUR27wtaxs-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    position: fixed;
-    width: 25%;
-    height: 100%;
-    
-}
+
 /* Main Text */
 .mainSection {
     margin: 10% 0 0 5%;
     line-height: 4rem;
-    width: 80%;
 }
 
 .mainText {
@@ -176,6 +166,17 @@ span {
 }
 
 /* About Section */
+.nonHome {
+    background: url("images/anders-jilden-AkUR27wtaxs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    padding: 0;
+    
+}
 .aboutSection {
     background-color: white;
     line-height: 2rem;
@@ -184,6 +185,11 @@ span {
     display: flex;
     flex-flow: column nowrap;
     box-sizing: border-box;
+}
+
+.shade {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
 }
 
 .aboutSection h1 {
