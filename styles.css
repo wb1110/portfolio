@@ -47,9 +47,10 @@ table {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    z-index: 1;
     background-color: #f6f6f6;
     display: block;
+    box-sizing: border-box;
+    border: solid 2px;
     
 }
 
@@ -128,12 +129,6 @@ a:hover {
     font-size: .75rem;
 }
 
-.aboutSection {
-    color: black;
-    background-color: white;
-    height: 100%;
-}
-
 .getInTouch {
     color: rgba(255, 255, 255, .5);
 }
@@ -189,7 +184,7 @@ span {
     margin: 0 25%;
     display: flex;
     flex-flow: column nowrap;
-    height: 100%;
+    box-sizing: border-box;
 }
 
 .aboutSection h1 {
@@ -198,6 +193,7 @@ span {
 
 .about {
     margin: 5%;
+    box-sizing: border-box;
 }
 .aboutSection p {
     margin: 2%;
