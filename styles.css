@@ -204,6 +204,19 @@ span {
     margin: 2%;
 }
 
+/* Contact */
 
+.contact {
+    display: block;
+}
 
+#secondaryIcon {
+    color: black;
+    font-weight: 400;
+}
+
+.secondaryIconDiv {
+    display: flex;
+    flex-direction: column;
+}
 
