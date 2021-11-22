@@ -202,6 +202,7 @@ i {
 
 .mainText {
     text-shadow: 1px 1px 3px black;
+    width: 75%;
 }
 
 span {
@@ -246,8 +247,6 @@ span {
 
 .about {
     margin: 5%;
-    box-sizing: border-box;
-    
 }
 
 .about h1 {
@@ -277,15 +276,14 @@ span {
 /* Media Queries */
 
 @media (min-width: 481px) and (max-width: 1010px) {
-    body {
-        height: 100%;
-    } 
-/* 
-    .nav {
+    /* body {
+
+    }  */
+
+    .background {
         display: flex;
-        position: absolute;
-        z-index: 10;
-    } */
+        flex-direction: column;
+    }
     .toggle-button {
         display: flex;
     }
@@ -294,10 +292,13 @@ span {
         display: none;
     }
 
+    #desktop {
+        display: none;
+    }
+
     .mobile {
         display: flex;
         background-color: rgba(0, 0, 0, .5);
-        display: flex;
         flex-direction: row;
         position: relative;
         width: 100%;
@@ -306,12 +307,16 @@ span {
         
     }
 
-    /* .background {
-        display: none;
-    } */
+    .backgroundSecondary {
+        width: auto;
+        background-image: none;
+        background-color: #483D8B;
+    }
 
     .contentSection {
         position: relative;
+        width: 100%;
+        margin: 0;
     }
 
     .link {
@@ -362,19 +367,34 @@ span {
         border-color: white;
         color: white;
     }
+    /* About */
+    .sub {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .backgroundSecondary {
+        position: relative;
+    }
   }
+
 
   @media (max-width: 480px) {
     /* Nav */
-    body {
-        height: 100%;
+
+    .background {
+        display: flex;
+        flex-direction: column;
     }
     .toggle-button {
         display: flex;
     }
 
     .desktop {
+        display: none;
+    }
+
+    #desktop {
         display: none;
     }
 
