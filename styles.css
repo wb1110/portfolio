@@ -275,7 +275,7 @@ span {
 
 /* Media Queries */
 
-@media (min-width: 481px) and (max-width: 1010px) {
+@media (max-width: 1010px) {
     /* body {
 
     }  */
@@ -378,9 +378,9 @@ span {
     }
   }
 
-
-  @media (max-width: 480px) {
-    /* Nav */
+/* 
+  @media (max-width: 480px) { */
+    /* Nav
 
     .background {
         display: flex;
@@ -459,4 +459,4 @@ span {
         color: white;
     }
 
-  }
+  } */
