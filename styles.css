@@ -285,6 +285,8 @@ span {
     margin: 2%;
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 1010px) {
@@ -322,7 +324,7 @@ span {
     }
 
     .navigationExtension {
-        display: flex;
+        display: none;
         background-color: rgba(0, 0, 0, .5);
         position: relative;
         width: 100%;
