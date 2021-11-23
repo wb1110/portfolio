@@ -1,6 +1,7 @@
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navigationExtension = document.getElementsByClassName('navigationExtension')[0]
+const toggleButton = document.querySelector('#toggle');
+const navigationExtension = document.querySelector('.navigationExtension');
 
 toggleButton.addEventListener('click', () => {
+    console.log('working');
     navigationExtension.classList.toggle('active')
-})
+});

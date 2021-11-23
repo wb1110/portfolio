@@ -334,6 +334,10 @@ span {
         border-top: solid rgba(255, 255, 255, 0.5) 1px;
     }
 
+    .navigationExtension.active {
+        display: flex;
+    }
+
     .navExt {
         margin-right: 1rem;
         text-align: right;
