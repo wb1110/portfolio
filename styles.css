@@ -196,6 +196,10 @@ i {
     background-color:white;
 }
 
+.navigationExtension {
+    display: none;
+}
+
 
 /* Main Text */
 .mainSection {
@@ -281,6 +285,8 @@ span {
     margin: 2%;
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 1010px) {
@@ -315,6 +321,22 @@ span {
         height: 3rem;
         z-index: 5;
         
+    }
+
+    .navigationExtension {
+        display: none;
+        background-color: rgba(0, 0, 0, .5);
+        position: relative;
+        width: 100%;
+        height: auto;
+        z-index: 5;
+        justify-content: flex-end;
+        border-top: solid rgba(255, 255, 255, 0.5) 1px;
+    }
+
+    .navExt {
+        margin-right: 1rem;
+        text-align: right;
     }
 
 
