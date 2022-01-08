@@ -177,20 +177,7 @@ i {
 
 .toggle-button {
     position: relative;
-    top: 1.1rem;
-    right: 1rem;
     display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 20px;
-    height: 15px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color:rgba(255, 255, 255, .5);
-    border-radius: 10px;
 }
 
 .toggle-button .bar:hover {
@@ -261,8 +248,7 @@ span {
     line-height: 3rem;
 }
 .contentSection p {
-    margin: 2%;
-    
+    margin: 2%;   
 }
 
 /* Contact */
@@ -286,30 +272,60 @@ span {
     margin: 2%;
 }
 /* Portfolio */
+.portfolioSection {
+    background-color: white;
+    line-height: 2rem;
+    color: black;
+    width: 100%;
+    margin: 0 0 0 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.portfolioSection h1 {
+    color: black;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
 .portfolioh2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 0;
+    margin-bottom: 1rem;
     color: black;
 }
 
-.club3landing {
-    width: 25rem;
+.portfolioSection li {
+    margin-left: 1rem;
 }
+
+.club3landing {
+    width: 100%;
+}
+
+.project__Container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project__Half {
+    width: 48%;
+}
+
 
 /* Media Queries */
 
 @media (max-width: 1010px) {
-    /* body {
-
-    }  */
-
     .background {
         display: flex;
         flex-direction: column;
     }
-    
 
     .toggle-button {
         display: flex;
@@ -402,17 +418,30 @@ span {
         margin: 0;
     }
 
+    .portfolioSection {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
     .link {
         display: none;
+    }
+
+    .mobile__Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: auto;
     }
 
     .inTouch {
         justify-content: flex-start;
         align-content: center;
-        padding: 0.75rem 0 0 1rem;
         margin: 0;
-        width: 95%;
     }
+
 
     i {
         margin: 0.2rem;

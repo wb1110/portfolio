@@ -51,16 +51,16 @@
                         <a href="/about.html" class="link">ABOUT</a><br>
                         <a href="/contact.html" class="link">CONTACT ME</a><br>
                     </nav>
-                    <nav class="inTouch">
-                        <a href="mailto:williamjaredbuchanan@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="https://www.linkedin.com/in/william-jared-buchanan/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/wb1110" target="_blank"><i class="fab fa-github-square"></i></a>
-                    </nav>
-                    <a href="#" id="toggle" class="toggle-button">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </a>
+                    <div class="mobile__Nav">
+                        <nav class="inTouch">
+                            <a href="mailto:williamjaredbuchanan@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/william-jared-buchanan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/wb1110" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </nav>
+                        <a href="#" id="toggle" class="toggle-button">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
                 </header>
                 <div class="navigationExtension">
                     <ul class="navExt">
@@ -78,28 +78,29 @@
                 <script src="script.js"></script>
             </div>
         </div>
-        <div class="contentSection">
+        <div class="portfolioSection">
             <section class="about">
                 <h1>PORTFOLIO</h1>
                 <p>You can see my work below.</p>
-                <div>
-                    <div>
+                <div class="project__Container">
+                    <div class="project__Half">
                         <h2 class="portfolioh2">Club 3 Landing Page</h2>
                         <p>This is a landing page to get prospective clients interested and to register to demo the software</p>
                         <ul>
                             <li>a page designed to generate interest and display design skill</li>
                             <li>registration form sends client information to an API to store for future conversations</li>
                         </ul>
+                        <button>Github</button><button>View Online</button>
                         <p>Technologies</p>
                         <div>
                             <button>React</button>
                             <button>Redux</button>
                             <button>NodeJS</button>
+                            <button>GSAP</button>
                         </div>
                     </div>
-                    <div>
+                    <div class="project__Half">
                         <img class="club3landing" src="/images/club3landing.jpg" alt="Club 3 Landing Page">
-                        <button>Github</button>
                     </div>
                 </div>
             </section>
