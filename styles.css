@@ -139,6 +139,7 @@ h3 {
     display: none;
 }
 
+
 .headshot {
     border-radius: 50%;
     width: 6rem;
@@ -284,8 +285,18 @@ span {
 .contactLinks {
     margin: 2%;
 }
+/* Portfolio */
+.portfolioh2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+}
 
-
+.club3landing {
+    width: 25rem;
+}
 
 /* Media Queries */
 

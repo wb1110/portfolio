@@ -5,3 +5,4 @@ toggleButton.addEventListener('click', () => {
     console.log('working');
     navigationExtension.classList.toggle('active')
 });
+

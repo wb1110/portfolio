@@ -76,11 +76,17 @@
                     <h2>a software engineer specialized in both <span>front-end and back-end</span> web development.</h2>
                 </section>
                 <section class="additionalLinks">
-                    <a href="./portfolio.html" class="button">PORTFOLIO</a>
-                    <a href="./about.html" class="button">ABOUT</a>
+                    <a href="./portfolio.html" class="button fade">PORTFOLIO</a>
+                    <a href="./about.html" class="button fade">ABOUT</a>
                 </section>
             </div>
         </div>
-    
+        <!-- We want all of this to have access to gsap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script>
+            // Custom code using GSAP here
+            gsap.fromTo(".fade", { opacity: 0}, {delay: 1, opacity: 1, duration: 3});
+        </script>
     </body>
 </html>
