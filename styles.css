@@ -150,10 +150,16 @@ a {
     color: rgba(255, 255, 255, .5);
     text-decoration: none;
     line-height: 2rem;
+    cursor: pointer;
 }
 
 a:hover {
     color: white;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 .primaryLinks {
@@ -300,7 +306,8 @@ span {
 }
 
 .portfolioSection li {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    list-style-type: circle;
 }
 
 .club3landing {
@@ -309,13 +316,28 @@ span {
 
 .project__Container {
     display: flex;
-    align-items: center;
+    align-items: top;
     width: 100%;
     justify-content: space-between;
+    padding-top: 1rem;
+    border-bottom: solid black 1px;
+    padding-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .project__Half {
     width: 48%;
+}
+
+#login {
+    font-size: 1rem;
+}
+
+.portfolio__Button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 0.5rem;
 }
 
 
